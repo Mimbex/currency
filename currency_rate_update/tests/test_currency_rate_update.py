@@ -14,7 +14,7 @@ from odoo.tests import tagged
 from odoo.addons.account.tests.common import AccountTestInvoicingCommon
 
 _module_ns = "odoo.addons.currency_rate_update"
-_file_ns = _module_ns + ".models.res_currency_rate_provider_ECB"
+_file_ns = _module_ns + ".models.res_currency_rate_provider_ecb"
 _ECB_provider_class = _file_ns + ".ResCurrencyRateProviderECB"
 
 
